@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    color: maroon;
+}
+.container {
+    position: relative;
+    background-color: maroon;
+    margin: 70px;
+    margin-left: 420px;
+    width: 20%;
+    height: 20%;
+    /* box-sizing:  border-box; */
+}
+ .container:before,.container:after{
+    content:"";
+    position: absolute;
+    background-color: aqua;
+    border-left:black solid 20px ;
+    border-right: saddlebrown solid 20px;
+    border-bottom: blue solid 50px;
+    border-top: 150px;
+    margin-bottom:90px;
+    margin-top: 21px;
+    margin-left: 100px;
+    text-shadow: rebeccapurple;
+}
+.container:after {
+    transform:rotate(45deg);
+}
+.container:before {
+    transform:rotate(-51deg);
+}
+
+.d {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 420px;
+    width: 20px;
+    background-color: brown
+}

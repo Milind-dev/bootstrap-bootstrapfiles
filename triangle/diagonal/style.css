@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.box {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 20%;
+	/*height: 30%;*/
+	/*height: block;*/
+	height: 0;
+	display: inline-block;	
+	line-height: -5px;
+	text-shadow: 0 1px 0 black;
+	/*border-right: 90px solid green;*/
+	border-right: 90px solid transparent;
+	border-bottom: 90px solid #4c4c4c;
+}
